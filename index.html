@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Ganesh'Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Ganesh</span><br>Software Engineer</h1>
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+    
+                <div class="home_social">
+                    <a href="#" class="home__social-icon"></a>
+                    <a href="#" class="home__social-icon"></a>
+                    <a href="#" class="home__social-icon"></a>
+    
+                    
+                </div>
+    
+                <div class="home__img">
+                    <img src="Ghani_home_pic.png">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="ganesh_photo-removebg-preview.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Ganesh Pasagada</h2>
+                        <p class="about__text">I am a Data Science student and Software Developer with experience in machine learning, deep learning, and web development. I have worked on multiple projects, including recommendation systems, task management apps, and AI-based solutions.
+
+                          Skilled in Python, JavaScript, React, and cloud deployment, I enjoy solving real-world problems through data-driven solutions. Always eager to learn and innovate, I strive to build impactful technology.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Skilled in Data Science with proficiency in Java, Python, HTML, CSS, and JavaScript. Passionate about problem-solving, writing efficient code, and continuously enhancing my technical expertise.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+            
+                <div class="work__container">
+                    <!-- Project 1 -->
+                    <div class="work__card">
+                        <img src="movie-concept-with-popcorn-clapperboard-remote-control.jpg" alt="Project 1" class="work__img">
+                        <div class="work__content">
+                            <h3>Movie Recommendation System</h3>
+                            <p>A content-based movie recommendation system that suggests movies based on user preferences. It analyzes movie features to provide personalized recommendations.</p>
+                            <a href="https://github.com/Ganesh1248/" class="work__button" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+            
+                    <!-- Project 2 -->
+                    <div class="work__card">
+                        <img src="cybersecurity-concept-collage-design.jpg" alt="Project 2" class="work__img">
+                        <div class="work__content">
+                            <h3>Spam Email  Detection System</h3>
+                            <p>A content-based email spam detection system that classifies emails as spam or legitimate based on their content. It helps filter unwanted emails effectively and improves email security.</p>
+                            <a href="https://github.com/Ganesh1248/" class="work__button" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+            
+                    <!-- Project 3 (Optional, remove if not needed) -->
+                    <div class="work__card">
+                        <img src="happy-dog-cat-together.jpg" alt="Project 3" class="work__img">
+                        <div class="work__content">
+                            <h3>Cat Vs Dog Image Classification</h3>
+                            <p>An image classification system that distinguishes between cats and dogs using content-based analysis. It enhances accuracy in identifying pet images efficiently.</p>
+                            <a href="https://github.com/Ganesh1248/" class="work__button" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+            
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <p><strong>Email:</strong> 
+                            <a href="mailto:ganeshpasagada.1248@gmail.com">ganeshpasagada.1248@gmail.com</a>
+                        </p>
+                        <p><strong>LinkedIn:</strong> 
+                            <a href="https://www.linkedin.com/in/ganesh-pasagada/" target="_blank"> linkedin/ganesh-pasagada</a>
+                        </p>
+                        <p><strong>Mobile:</strong> 
+                            <a href="tel:+919866839964">+91 9866839964</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Ganesh Pasagada</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/ganesh-pasagada/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:ganeshpasagada.1248@gmail.com" class="footer__icon"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://github.com/Ganesh1248/" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <footer class="footer">
+                <footer class="footer">
+                    <p>© 2024 Ganesh Pasagada | Modified by Me | Original Design by <a href="https://www.youtube.com/@Bedimcode" target="_blank">Bedimcode</a></p>
+                </footer>
+                
+            </footer>
+            
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="script.js"></script>
+    </body>
+</html>
