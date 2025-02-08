@@ -33,8 +33,7 @@
 ---
 
 ## 📬 Connect With Me  
-📧 **Email:** [ganeshpasagada.1248@gmail.com](mailto:ganeshpasagada.1248@gmail.com)  
-🔗 **LinkedIn:** [Your LinkedIn Profile](#) *(Replace with your actual link)*  
+📧 **Email:** [ganeshpasagada.1248@gmail.com](mailto:ganeshpasagada.1248@gmail.com) 
 👨‍💻 **GitHub:** [Ganesh1248](https://github.com/Ganesh1248)  
 
 ---
