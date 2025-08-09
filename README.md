@@ -9,7 +9,7 @@
 
 ## 🖥️ Tech Stack  
 🔹 **Languages Used:** HTML, CSS, JavaScript  
-🔹 **Deployment:** GitHub Pages  
+🔹 **Deployment:** GitHub Pages
 
 ---
 
